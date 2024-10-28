@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.left-arrow, .right-arrow {
+	cursor: pointer;
+	position: absolute;
+	font-size: 10rem;
+	transition: all .3s ease-in-out;
+}
+
+.left-arrow {
+	left: 0;
+	top: 0;
+}
+
+.right-arrow {
+	right: 0;
+	top: 0;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+	filter: drop-shadow(0 0 8px #dedede);
+}

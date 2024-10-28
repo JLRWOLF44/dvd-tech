@@ -1,34 +1,61 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import './assets/components/arrow/cardFabrice.css'
+
+import Card from './assets/components/arrow/cardFabrice.tsx'
+import LeftArrow from './assets/components/arrow/arrow-left.tsx'
+import RightArrow from './assets/components/arrow/arrow-right.tsx'
+
+const listMovies = [
+  {
+    id: 0,
+    src: 'https://i.ebayimg.com/images/g/og8AAOSwTqFjyvwK/s-l1600.webp',
+    alt: 'The last of us',
+    synopsys: ''
+  },
+  
+  {
+    id: 1,
+    src: 'https://www.photosmurales.fr/media/catalog/product/cache/3/thumbnail/9df78eab33525d08d6e5fb8d27136e95/v/d/vd-046-star-wars-official-poster-ep7.jpg',
+    alt: 'Star Wars I',
+    synopsys: ''
+  },
+
+  {
+    id: 2,
+    src: 'https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1600.webp',
+    alt: 'Tenet',
+    synopsys: ''
+  },
+
+  {
+    id: 3,
+    src: 'https://i.ebayimg.com/images/g/gEoAAOSw84BfOWDp/s-l1600.webp',
+    alt: 'Tenet',
+    synopsys: ''
+  }
+]
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [movie, setMovie] = useState(0);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <main>
+      <section className='slider'>
+        {
+          listMovies.map((el) => {
+            return (
+              <Card key={el.id} CardMovies={ listMovies[el.id] }/>
+            )
+          })
+        }
+        <LeftArrow />
+        <RightArrow />
+      </section>
+    </main>
     </>
+
   )
 }
 
