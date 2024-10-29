@@ -42,9 +42,9 @@
 
 
 
-import "../assets/styles/Card.css";
+
 import { useState } from "react";
-import "../App.css";
+
 
 interface CardI {
 	firstname: string;
