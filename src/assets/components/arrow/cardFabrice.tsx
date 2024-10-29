@@ -1,14 +1,6 @@
-interface MoviesProps {
-	src: string,
-	alt: string
-}
+import { MoviesProps } from "./baseMovies";
 
-interface Movie {
-	CardMovies : MoviesProps
-}
-
-
-function CardFabrice({CardMovies} : Movie) {
+function CardFabrice({CardMovies} : {CardMovies : MoviesProps}) {
 	return (
 		<div className="slider">
 			<figure className='slider__card'>
