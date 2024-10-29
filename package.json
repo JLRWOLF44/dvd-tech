@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "check": "npx @biomejs/biome check --write ./src",
-    "preview": "vite preview"
+
+
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "npm run dev"
+
   },
   "dependencies": {
     "react": "^18.3.1",
