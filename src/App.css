@@ -1,42 +1,57 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
-  padding: 2em;
+  width: 100%; /* Prendre toute la largeur */
+  text-align: center; /* Centre le texte */
+  background-color: white; /* Couleur de fond de la carte */
+  padding: 20px; /* Ajoute du padding à la carte */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre de carte */
 }
 
-.read-the-docs {
-  color: #888;
+/* image */
+
+div img {
+  width: 50px;
+  height: 50px;
+}
+
+/* title.css */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+/* .pumpkin-logo */
+
+.pumpkin-logo {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* .social-media */
+
+.social-media a {
+  margin: 0 10px;
 }
