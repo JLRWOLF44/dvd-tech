@@ -1,3 +1,4 @@
+
 .card {
   width: 100%; /* Prendre toute la largeur */
   text-align: center; /* Centre le texte */
@@ -55,3 +56,14 @@ footer nav a {
 .social-media a {
   margin: 0 10px;
 }
+
+
+main {
+	padding: 1rem;
+}
+
+.slider {
+	display: flex;
+	flex-direction: row;
+}
+
