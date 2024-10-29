@@ -1,8 +1,27 @@
 
+// import { useState } from 'react'
+import MyTitles from "./assets/components/MyHeader";
+import MyFooter from "./assets/components/MyFooter";
+import NavBar from "./assets/components/NavBar";
+import "./App.css";
 import Card from "../src/components/Card"; 
 import Header from "../src/components/Header";
 import { useState } from 'react'
 import './App.css'
+
+
+function App() {
+  return (
+    <>
+      <MyTitles />
+
+      <MyFooter />
+    </>
+  );
+}
+
+
+
 // import './assets/components/arrow/cardFabrice.css' 
 // import listMovies from './assets/components/arrow/baseMovies.tsx'
 // import Card from './assets/components/arrow/cardFabrice.tsx'

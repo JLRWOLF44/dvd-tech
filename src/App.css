@@ -1,4 +1,63 @@
 
+.card {
+  width: 100%; /* Prendre toute la largeur */
+  text-align: center; /* Centre le texte */
+  background-color: white; /* Couleur de fond de la carte */
+  padding: 20px; /* Ajoute du padding à la carte */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre de carte */
+}
+
+/* image */
+
+div img {
+  width: 50px;
+  height: 50px;
+}
+
+/* title.css */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+/* .pumpkin-logo */
+
+.pumpkin-logo {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* .social-media */
+
+.social-media a {
+  margin: 0 10px;
+}
+
+
 main {
 	padding: 1rem;
 }
@@ -7,3 +66,4 @@ main {
 	display: flex;
 	flex-direction: row;
 }
+
