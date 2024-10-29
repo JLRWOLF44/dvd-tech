@@ -1,0 +1,24 @@
+.slider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider__card {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 0;
+	width: 500%;
+	height: 300px;
+	margin: 0;
+}
+
+.slider__img {
+	float: left;
+	width: 80%;
+	height: auto;
+}
