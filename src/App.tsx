@@ -42,9 +42,25 @@ function App() {
 			imgSrc: "https://fr.web.img3.acsta.net/pictures/13/12/30/11/10/553375.jpg"
 		},
 		{
+			firstname: "Alien",
+			imgSrc: "https://fr.web.img3.acsta.net/medias/nmedia/18/35/14/60/18363837.jpg"
+		},
+		{
 			firstname: "L'orphelinat",
 			imgSrc: "https://fr.web.img3.acsta.net/c_310_420/medias/nmedia/18/64/33/97/18888814.jpg"
-		}
+		},
+		{
+			firstname: "Predator",
+			imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/5d2880ca87355b7352e5030c7fccb2ab7629238cd19e578dc0b1a496075c2617.png"
+		},
+		{
+			firstname: "Amityville",
+			imgSrc: "https://fr.web.img6.acsta.net/medias/nmedia/18/35/15/69/18365154.jpg"
+		},
+		{
+			firstname: "Beetlejuice",
+			imgSrc: "https://fr.web.img3.acsta.net/pictures/18/10/18/09/47/5083109.jpg"
+		},
   
 	]
 
