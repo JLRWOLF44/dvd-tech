@@ -2,7 +2,7 @@
 .card {
   width: 100%; /* Prendre toute la largeur */
   text-align: center; /* Centre le texte */
-  background-color: white; /* Couleur de fond de la carte */
+  background-color: rgb(0, 0, 0); /* Couleur de fond de la carte */
   padding: 20px; /* Ajoute du padding à la carte */
   border-radius: 10px; /* Coins arrondis */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre de carte */
@@ -21,7 +21,7 @@ div img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: red;
+  color: #a5292a;
   font-size: 2rem;
   margin: 0;
 }

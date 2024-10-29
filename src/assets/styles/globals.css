@@ -2,7 +2,6 @@
 
 body {
 	font-family: "Agdasima", sans-serif;
-	animation: introduction 20s;
 }
 
 a {
@@ -10,16 +9,3 @@ a {
 	color: rgb(167, 69, 69);
 }
 
-@keyframes introduction {
-	0% {
-		overflow: hidden;
-	}
-
-	99% {
-		overflow: hidden;
-	}
-
-	100% {
-		overflow: visible;
-	}
-}
